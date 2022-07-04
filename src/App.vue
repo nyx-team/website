@@ -7,7 +7,7 @@ import ButtonLinks from './components/ButtonLinks.vue';
     <h1 class="title">Nyx</h1>
 
     <p class="description">
-      Nyx is an open-soure, and a multi-purpose discord bot!
+      Nyx is an open-source, and a multi-purpose discord bot!
       <br>
       Built using TypeScript. Code available on GitHub!
     </p>
