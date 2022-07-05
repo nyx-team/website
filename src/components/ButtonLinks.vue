@@ -36,7 +36,7 @@ export default {
   margin-top: -3rem;
 }
 
-.buttons > button {
+.buttons > a {
   margin: 6px;
 }
 </style>

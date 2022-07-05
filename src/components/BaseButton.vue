@@ -5,11 +5,11 @@ export default {
 </script>
 
 <template>
-  <button class="button" id="basebtn">
-    <a v-bind:href="link">
+  <a :href="link">
+    <button class="button" id="basebtn">
       <span>{{ name }}</span>
-    </a>
-  </button>
+    </button>
+  </a>
 </template>
 
 <style scoped>
@@ -27,7 +27,7 @@ export default {
   display: inline-block;
   background-color: #9edb25;
 
-  color: white;
+  color: midnightblue;
   padding: 14px 30px;
   font-size: 1.5rem;
   font-family: 'Inconsolata', monospace;
