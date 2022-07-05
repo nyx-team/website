@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap');
 
 body {
   background-color: #2C3639;
@@ -24,7 +24,7 @@ body {
 .description {
   color: #ebd994;
   font-size: 1.1rem;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Inconsolata', monospace;
   
   text-align: center;
   

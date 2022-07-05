@@ -30,7 +30,7 @@ export default {
   color: white;
   padding: 14px 30px;
   font-size: 1.5rem;
-  font-family: monospace;
+  font-family: 'Inconsolata', monospace;
 
   transition: ease 0.5;
 }
