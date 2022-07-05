@@ -5,21 +5,14 @@ export default {
 </script>
 
 <template>
-  <div class="buttons">
-    <button class="button" id="basebtn">
-      <a v-bind:href="link">
-        <span>{{ name }}</span>
-      </a>
-    </button>
-  </div>
+  <button class="button" id="basebtn">
+    <a v-bind:href="link">
+      <span>{{ name }}</span>
+    </a>
+  </button>
 </template>
 
 <style scoped>
-.buttons {
-  display: flex;
-  justify-content: center;
-}
-
 #basebtn {
   text-decoration: none;
   text-align: center;
@@ -40,8 +33,6 @@ export default {
   font-family: monospace;
 
   transition: ease 0.5;
-
-  margin-top: -50px;
 }
 
 .button span {
