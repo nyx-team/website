@@ -7,10 +7,19 @@ export default {
   },
   data() {
     return {
-      posts: [
-        { id: 1, name: 'Invite Nyx', link: 'https://discord.com/oauth2/authorize?client_id=960533661109878805&scope=bot%20applications.commands&permissions=336886885630' },
-        { id: 2, name: 'GitHub (Source Code)', link: 'https://github.com/nyx-team/nyx' }
-      ]
+      posts: [{
+        id: 1,
+        name: 'Invite Nyx',
+        link: 'https://discord.com/oauth2/authorize?client_id=960533661109878805&scope=bot%20applications.commands&permissions=336886885630'
+      }, {
+        id: 2,
+        name: 'Support Server',
+        link: 'https://discord.gg/invite/YNppjePpje'
+      }, {
+        id: 3,
+        name: 'GitHub (Source Code)',
+        link: 'https://github.com/nyx-team/nyx'
+      }]
     }
   }
 }
